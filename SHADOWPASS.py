@@ -53,7 +53,7 @@ print("""Programı kullanmak için
  print(ç+ö+z+ü+l+e+c+e+k+k+e+l+i+m+e)
  NOT:BOŞLUK BUGU,DÖNGÜ MODU VE print(...) KELİMESİ YAZMA YERİ YAKINDA DÜZELTİLECEKTİR""")
 q = input("Şifrele veya Çöz=")
-cevap = eval(q)
+cevap = exec(q)
 print(cevap)
 input()
 
